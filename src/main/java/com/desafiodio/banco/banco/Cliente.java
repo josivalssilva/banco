@@ -1,6 +1,17 @@
 package com.desafiodio.banco.banco;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+
+import javax.persistence.Entity;
+
+@Data
+//@Entity
+@Builder
+
 public class Cliente {
+
     private String nome;
     private String numero;
 
